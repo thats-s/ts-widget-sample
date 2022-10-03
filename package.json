@@ -14,6 +14,10 @@
     "url": "git+https://github.com/thats-s/ts-widget-sample.git"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+    "@11ty/eleventy": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "eslint": "^8.24.0",
+    "typescript": "^4.8.4"
   }
 }
