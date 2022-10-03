@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
         dir: {
             input: 'src/ejs',
             output: 'public',
-        }
+        },
+        htmlTemplateEngine: 'ejs'
     };
 };
