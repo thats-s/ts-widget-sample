@@ -9,5 +9,10 @@
     "project": "./tsconfig.json",
     "sourceType": "module"
   },
-  "root": true
+  "root": true,
+  "rules": {
+    "no-console": 1,
+    "indent": ["error", 4],
+    "semi": "error"
+  }
 }
