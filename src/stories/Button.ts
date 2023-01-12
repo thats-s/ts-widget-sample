@@ -45,5 +45,3 @@ export const createButton = ({
 
     return btn;
 };
-
-console.log('hoge');

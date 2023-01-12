@@ -1,5 +1,6 @@
 import { Story, Meta } from '@storybook/html';
 import { createButton, ButtonProps } from './Button';
+import markdown from './Button.stories.md';
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
 export default {
@@ -14,6 +15,9 @@ export default {
             control: { type: 'select' },
             options: ['small', 'medium', 'large'],
         },
+    },
+    parameters: {
+        notes: markdown as string,
     },
 } as Meta;
 
