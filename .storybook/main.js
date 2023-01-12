@@ -7,7 +7,8 @@ module.exports = {
         "@storybook/addon-links",
         "@storybook/addon-essentials",
         "@storybook/addon-interactions",
-        "@storybook/addon-storysource"
+        "@storybook/addon-storysource",
+        "@whitespace/storybook-addon-html"
     ],
     "framework": "@storybook/html"
 }

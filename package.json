@@ -28,6 +28,7 @@
     "@storybook/testing-library": "^0.0.13",
     "@typescript-eslint/eslint-plugin": "^5.38.1",
     "@typescript-eslint/parser": "^5.38.1",
+    "@whitespace/storybook-addon-html": "^5.1.1",
     "babel-loader": "^8.2.5",
     "eslint": "^8.24.0",
     "eslint-plugin-storybook": "^0.6.6",
