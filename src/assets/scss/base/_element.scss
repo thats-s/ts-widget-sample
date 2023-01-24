@@ -1,0 +1,21 @@
+@use "../global/" as global;
+
+// https://fonts.google.com/specimen/Noto+Sans+JP
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+
+/* -----------------------------------------------------------------------
+ * Root
+ * -------------------------------------------------------------------- */
+:root {
+  @each $key, $value in global.$color-custom-properties-list {
+    --color-#{$key}: #{$value};
+  }
+}
+
+/* -----------------------------------------------------------------------
+ * Elements (site based)
+ * -------------------------------------------------------------------- */
+
+body {
+  font-family: global.$font-family;
+}

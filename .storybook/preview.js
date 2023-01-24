@@ -1,4 +1,5 @@
 import 'destyle.css';
+import '../src/assets/scss/common.scss';
 
 export const parameters = {
     actions: { argTypesRegex: "^on[A-Z].*" },

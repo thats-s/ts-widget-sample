@@ -1,0 +1,48 @@
+/* -----------------------------------------------------------------------
+ * Hover
+ * -------------------------------------------------------------------- */
+@mixin hover() {
+    &:hover,
+    &:focus,
+    &:active {
+        @content;
+    }
+}
+
+// ------------------------------------
+// Reset-margin
+// ------------------------------------
+@mixin reset-margin($order: all) {
+    @if $order == first {
+        > * {
+            &:first-child {
+                margin-top: 0;
+            }
+        }
+    } @else if $order == last {
+        > * {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    } @else if $order == all {
+        > * {
+            &:first-child {
+                margin-top: 0;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+// ------------------------------------
+// WAI-ARIA
+// ------------------------------------
+@mixin aria-expanded-true() {
+    &[aria-expanded="true"] {
+        @content;
+    }
+}
