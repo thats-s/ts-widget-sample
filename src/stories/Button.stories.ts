@@ -1,6 +1,6 @@
-import { Story, Meta } from '@storybook/html';
+import { Meta, Story } from '@storybook/html';
 
-import { createButton, ButtonProps } from './Button';
+import { ButtonProps, createButton } from './Button';
 import markdown from './Button.stories.md';
 
 // More on default export: https://storybook.js.org/docs/html/writing-stories/introduction#default-export
